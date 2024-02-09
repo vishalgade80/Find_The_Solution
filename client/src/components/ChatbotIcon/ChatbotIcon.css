@@ -1,0 +1,21 @@
+.chatbot-container {
+  bottom: 0;
+  position: fixed;
+  padding: 20px;
+}
+
+.chatbot-btn {
+    padding: 10px;
+    border: solid 1px #ef3636;
+    border-radius: 10px;
+    background-color: #ef3636;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.chatbot-btn:hover{
+    background-color: white;
+    color: #ef8236;
+}

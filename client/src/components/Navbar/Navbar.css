@@ -1,0 +1,114 @@
+.main-nav{
+    min-height: 65px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #fb0505;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #206cef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    padding: 5px 25px;
+}
+
+.nav-item{
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.nav-btn{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.nav-item:hover{
+    background-color: rgb(240, 9, 9);
+}
+
+.community, .gpt{
+    font-size: medium;
+    font-weight: 600;
+    color: #f4f2f1;
+    border: solid 1px #f8f9f9;
+}
+
+.community:hover, .gpt:hover{
+    border: solid 1px #f93939;
+}
+
+.nav-logo:hover{
+    background: none;
+}
+
+.navbar form{
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.navbar form input{
+    min-width: 20%;
+    
+    margin-left: 75%;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+}
+
+.navbar form .search-icon{
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    margin-left: 72%;
+}
+
+.nav-links{
+    padding: 7px 13px;
+    border: solid 1px blue;
+    border-radius: 3px;
+    background-color: #770cdc;
+    cursor: pointer;
+}
+
+.nav-links:hover{
+    background-color: #f20c0c;
+}
+
+@media screen and (max-width: 1120px) {
+    .navbar .navbar-1 form {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 760px) {
+    .slide-in-icon {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .navbar .navbar-1 .res-nav {
+      display: none;
+    }
+  }

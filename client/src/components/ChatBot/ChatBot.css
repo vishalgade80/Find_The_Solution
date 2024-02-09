@@ -1,0 +1,80 @@
+.Chatbot {
+  max-width: 1250px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: black;
+  font-weight: 500;
+}
+
+.h1 .span {
+  font-weight: 600;
+  color: #3642ef;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.user_msg {
+  color: #366def;
+  max-width: 52%;
+  padding: 15px;
+  border-radius: 50px;
+  border: solid 3px #4c36ef;
+  text-align: right;
+  margin-left: 48%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.assistant {
+  background-color: #3658ef;
+  max-width: 52%;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+}
+
+p span:first-child {
+  margin-right: 0;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.typing {
+  background-color: #3636ef;
+  border-radius: 50px;
+  max-width: 52%;
+  padding: 15px;
+}
+
+
+.doubt-form {
+  text-align: center;
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  padding: 2% 5%;
+}
+
+.doubt {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-bottom: solid 2px #3c36ef;
+  color: black;
+  outline: none;
+}
